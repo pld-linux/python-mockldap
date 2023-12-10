@@ -1,0 +1,11 @@
+--- mockldap-0.3.0.post1/setup.py.orig	2019-08-28 19:22:31.000000000 +0200
++++ mockldap-0.3.0.post1/setup.py	2023-12-10 16:23:50.675454847 +0100
+@@ -37,7 +37,7 @@ setup(
+     ],
+     keywords=['mock', 'ldap'],
+     install_requires=[
+-        'funcparserlib == 0.3.6',
++        'funcparserlib >= 0.3.6',
+         'mock; python_version < "3.0"',
+         'python-ldap >= 3.0',
+     ],
