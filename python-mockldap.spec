@@ -64,7 +64,7 @@ Dokumentacja API modułu Pythona mockldap.
 
 %prep
 %setup -q -n mockldap-%{version}
-%patch0 -p1
+%patch -P 0 -p1
 
 %build
 %if %{with python2}
