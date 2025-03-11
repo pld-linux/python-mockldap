@@ -8,7 +8,7 @@ Summary:	A simple mock implementation of python-ldap
 Summary(pl.UTF-8):	Prosta implementacja atrapy python-ldap
 Name:		python-mockldap
 Version:	0.3.0.post1
-Release:	2
+Release:	3
 License:	CC0 v1.0
 Group:		Libraries/Python
 #Source0Download: https://pypi.org/simple/mockldap/
